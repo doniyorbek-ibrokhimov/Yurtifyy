@@ -1,0 +1,95 @@
+## Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Thanks!
+#
+# Build products
+build/
+DerivedData/
+
+# Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# *.swiftpm/build/
+# Package.resolved
+# Package.pins
+# .build/
+#
+# Xcode automatically generates this directory structure for Swift Package Manager dependencies.
+# It can be safely ignored if you are not using Swift Package Manager directly.
+# .swiftpm/
+
+## CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the Xcode project.
+# *.xcodeproj/project.xcworkspace/
+
+## Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Build/
+# Carthage/Checkouts/
+
+## fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#ignoring-generated-files
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Bundle artifact created by `fastlane scan`
+fastlane/scan/DerivedData
+
+# It is recommended to commit the fastlane/Lanes folder to version control
+# However, if you generate it through fastlane, you might want to ignore it
+# fastlane/Lanes
+
+## General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk 
