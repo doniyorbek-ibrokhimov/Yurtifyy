@@ -1,0 +1,114 @@
+{
+    "achievements": [
+        {
+            "id": "1",
+            "title": "First Steps",
+            "description": "Visit your first attraction",
+            "icon": "🎯",
+            "points": 100,
+            "requirementType": "visitAttractions",
+            "requirementValue": 1,
+            "isUnlocked": false
+        },
+        {
+            "id": "2",
+            "title": "Novice Explorer",
+            "description": "Visit 5 different attractions",
+            "icon": "🌟",
+            "points": 250,
+            "requirementType": "visitAttractions",
+            "requirementValue": 5,
+            "isUnlocked": false
+        },
+        {
+            "id": "3",
+            "title": "Seasoned Explorer",
+            "description": "Visit 15 different attractions",
+            "icon": "🧭",
+            "points": 500,
+            "requirementType": "visitAttractions",
+            "requirementValue": 15,
+            "isUnlocked": false
+        },
+        {
+            "id": "4",
+            "title": "Master Explorer",
+            "description": "Visit 25 different attractions",
+            "icon": "✈️",
+            "points": 1000,
+            "requirementType": "visitAttractions",
+            "requirementValue": 25,
+            "isUnlocked": false
+        },
+        {
+            "id": "5",
+            "title": "Uncommon Collector",
+            "description": "Collect 20 items",
+            "icon": "📦",
+            "points": 300,
+            "requirementType": "collectItems",
+            "requirementValue": 20,
+            "isUnlocked": false
+        },
+        {
+            "id": "6",
+            "title": "Rare Collector",
+            "description": "Collect 50 items",
+            "icon": "💎",
+            "points": 400,
+            "requirementType": "collectItems",
+            "requirementValue": 50,
+            "isUnlocked": false
+        },
+        {
+            "id": "7",
+            "title": "Legendary Collector",
+            "description": "Collect 100 items",
+            "icon": "🏆",
+            "points": 500,
+            "requirementType": "collectItems",
+            "requirementValue": 100,
+            "isUnlocked": false
+        },
+        {
+            "id": "8",
+            "title": "Bronze Explorer",
+            "description": "Earn 2 500 points",
+            "icon": "🥉",
+            "points": 500,
+            "requirementType": "earnPoints",
+            "requirementValue": 2500,
+            "isUnlocked": false
+        },
+        {
+            "id": "9",
+            "title": "Silver Explorer",
+            "description": "Earn 6 000 points",
+            "icon": "🥈",
+            "points": 1000,
+            "requirementType": "earnPoints",
+            "requirementValue": 6000,
+            "isUnlocked": false
+        },
+        {
+            "id": "10",
+            "title": "Gold Explorer",
+            "description": "Earn 10 000 points",
+            "icon": "🥇",
+            "points": 2000,
+            "requirementType": "earnPoints",
+            "requirementValue": 10000,
+            "isUnlocked": false
+        },
+        {
+            "id": "11",
+            "title": "Platinum Explorer",
+            "description": "Earn 15 000 points",
+            "icon": "💫",
+            "points": 5000,
+            "requirementType": "earnPoints",
+            "requirementValue": 15000,
+            "isUnlocked": false
+        }
+    ]
+}
